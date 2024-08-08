@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#nav{
+    height: 70px;
+    width: 100%;
+    background-color: black;
+    border-bottom: 1px solid grey;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#nav>a{
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    transition: 0.2s;
+}
+
+#nav>a:active{
+    color: red;
+}
+#parenttable{
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+td{
+    height: 30px;
+    width: 200px;
+    text-align: center;
+    color: white;
+
+}
+
+td>button{
+    height: 20px;
+    width: 80px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+
+
+#parentform{
+    height: 90vh;
+    width: 100%;
+    background: linear-gradient(225deg,black,grey,black);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#updateform{
+    height: 90vh;
+    width: 100%;
+    background: radial-gradient(red,black);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form{
+    height: 350px;
+    width: 270px;
+    border: 1px solid rgba(0, 0, 0, 0);
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px black;
+    background-color: rgba(0, 0, 0, 0.616);
+    backdrop-filter: blur(4px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+
+form>input{
+    height: 30px;
+    width: 200px;
+    margin: 20px;
+    border: 1px solid rgba(0, 0, 0, 0);
+    border-radius: 50px;
+    background-color: rgba(0, 0, 0, 0.329);
+    color: white;
+    padding: 20px;
+}
+
+form>button{
+    height: 25px;
+    width: 100px;
+    color: white;
+    background:linear-gradient(-225deg,black,rgba(128, 128, 128, 0.397),black);
+    border: 1px solid rgba(0, 0, 0, 0);
+    border-radius: 50px;
+    margin-top: 10px;
+    transition: 0.6s;
+}
+
+form>h2{
+    text-align: center;
+    color: rgba(0, 0, 0, 0);
+    text-shadow: 0px 0px 2px rgba(0, 0, 0, 0.884);
+    margin-top: 10px;
+}
+
+#parenttable{
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: black;
+
+
+}
+
+#parenttable>h1{
+    text-align: center;
+    color: red;
+}
+
+tr{
+    transition: 0.6s;
+}
+
